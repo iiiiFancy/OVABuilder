@@ -1,0 +1,12 @@
+ovaDLURL=https://s3.us-east-2.amazonaws.com/launchpad-dev-resource/Photon-with-connector/PhotonOnly.ova
+ovaName=PhotonOnly.ova
+ovftoolPath=C:\Program Files\VMware\VMware OVF Tool\ovftool.exe
+datastore=datastore1
+vmName=PhotonWithConnector
+sourceNET="VM Network"
+targetNET="VM Network"
+ovaPath=C:\jenkins\workspace\UIAutoTest\euc_cst_euclaunchpad\tools\PhotonBuilder\download\PhotonOnly.ova
+userName=asdf
+userPassword=asdf
+VcenterIP=10.117.160.100
+hostIP=10.117.160.96

@@ -1,0 +1,8 @@
+asdf
+asdf
+binary
+prompt n
+lcd ../../webserver/public/static/download
+dir
+put ElpConnector.ova
+bye

@@ -1,0 +1,3 @@
+@reboot (sleep 1; /sbin/iptables -A OUTPUT -p tcp --sport 8003 -j ACCEPT)
+@reboot (sleep 2; /sbin/iptables -A INPUT -p tcp --dport 8003 -j ACCEPT)
+@reboot (sleep 3; cd /connector && ./launch.sh)
