@@ -37,7 +37,7 @@ VcenterIP=10.117.160.100                                                        
 hostIP=10.117.160.96									      IP address of host (EXSi) to use
 
 Other files:
-DeployFromS3.bat: Contains only one command, using a ova of OS described above archived on Amazon S3 (https://s3.us-east-2.amazonaws.com/launchpad-dev-resource/Photon-with-connector/PhotonWithConnector.ova) to directly build a VM on Vcenter provided in input.txt (VM username:root, password:VMware123)
+DeployFromS3.bat: Contains only one command, using a ova of OS described above archived on Amazon S3 to directly build a VM on Vcenter provided in input.txt (VM username:root, password:VMware123)
 
 startWithoutDownload.bat: If you have everything ready in download directory. Click this to skip download steps. But make sure you use right file names.
 
